@@ -1,11 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import RecordList from './components/RecordList.jsx'
+import Record from './components/Record.jsx'
 import './index.css'
 import App from './App.jsx'
 
-const RecordList = () => <div>Record List</div>
-const Record = () => <div>Record</div>
+// const RecordList = () => <div>Record List</div>
+// const Record = () => <div>Record</div>
 
 const router = createBrowserRouter([
   {

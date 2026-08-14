@@ -1,10 +1,3 @@
-import {usestate, useEffect} from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-
-function Record() {
-  return (
-    <div>Record</div>
-  )
-}
-
-export default Record
+import { useParams, useNavigate } from "react-router-dom";
+const LEVELS = ["Intern", "Junior", "Senior"];
+// ... LEVEL_COLORS and normalizeLevel ...
